@@ -1,0 +1,41 @@
+.event-screen {
+    width: 80%;
+    margin: 20px auto auto;
+    justify-content: center;
+    display: flex;
+}
+
+.event-list {
+    width: 100%;
+}
+
+.create-new-event {
+    height: 50px;
+    background: white;
+    position: relative;
+    border-radius: 1px;
+    margin-top: 3px;
+    display: flex;
+    box-shadow: 2px 2px 4px;
+    cursor: pointer;
+}
+
+.create-new-event:hover {
+    background: rgba(0, 2, 122, 0.05);
+    color: rgba(63, 122, 0, 0.644);
+}
+
+.create-icon:hover {
+    color: rgba(63, 122, 0, 0.644);
+}
+
+.create-new-event i {
+    font-size: 40px;
+    margin: auto 10px;
+}
+
+.create-new-event-text {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+.question-composing .ant-layout-content {
+    position: relative;
+}
+
+.question-composing .ant-input-suffix {
+    right: 0;
+}
+
+.content-question {
+    background: white;
+    padding: 0 10px;
+    box-shadow: 2px 2px 4px;
+    border-radius: 4px;
+}
+
+.content-question-length {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.question-composing-footer {
+    position: relative;
+    padding: 0;
+    margin-top: 5px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px;
+}
+
+.question-composing-footer .ant-input-affix-wrapper {
+    position: relative;
+    margin: 0;
+}
+
+.question-composing .question-composing-footer .ant-input-suffix {
+    right: 2px;
+}
+
+.question-composing .question-composing-footer .ant-btn {
+    height: 28px;
+}

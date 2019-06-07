@@ -1,0 +1,19 @@
+.question-screen {
+    position: relative;
+    min-width: 500px;
+    width: 80%;
+    margin: 20px auto auto;
+}
+
+.question-screen .center {
+    position: relative;
+    display: flex;
+    height: 32px;
+    margin-top: 10px;
+}
+
+.question-screen .ant-select {
+    position: absolute;
+    right: 0;
+    width: 120px;
+}

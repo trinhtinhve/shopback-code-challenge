@@ -1,0 +1,32 @@
+.start-screen {
+    display: flex;
+    margin: auto;
+}
+
+.start-screen .middle {
+    display: table;
+    height: 32px;
+}
+
+.start-screen .middle .or {
+    width: 50px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.start-screen .input-event-code .ant-input-suffix {
+    right: 2px;
+}
+
+.start-screen .input-event-code .ant-btn {
+    height: 28px;
+}
+
+.start-screen .create-btn {
+    background: rgb(122, 223, 122); 
+}
+
+.start-screen .create-btn:hover {
+    background: rgb(142, 255, 142);
+}

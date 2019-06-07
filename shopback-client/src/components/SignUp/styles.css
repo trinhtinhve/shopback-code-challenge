@@ -1,0 +1,50 @@
+.sign-up, .sign-up .title{
+    margin: auto;
+    position: relative;
+    width: 50%;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+.sign-up {
+    padding: 15px;
+    box-shadow: 2px 2px 4px;
+    background: white;
+    border-radius: 5px;
+}
+
+.sign-up .create-button {
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+
+.sign-up .title {
+    font-size: 32px;
+    width: auto;
+    text-align: center;
+    font-weight: bold;
+    min-width: 170px;
+}
+
+.sign-up .full-name {
+    display: flex;
+}
+
+.sign-up .full-name .first-name, .sign-up .full-name .last-name {
+    width: 50%;
+}
+
+.sign-up .full-name .last-name {
+    margin-left: 15px;
+}
+
+.sign-up .have-account-link {
+  text-align: right;
+  cursor: pointer;
+  color: rgb(0, 153, 255);
+}
+
+.sign-up .have-account-link:hover {
+    text-decoration: underline;
+  }

@@ -1,0 +1,85 @@
+.dashboard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.dashboard-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background: white;
+  box-shadow: 3px 3px 10px;
+  display: flex;
+}
+
+.dashboard-content {
+  width: 80%;
+  margin: 100px auto auto;
+  min-width: 400px;
+}
+
+.dashboard-header .back {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 5px;
+  min-width: 50px;
+  display: flex;
+}
+
+.dashboard-header .back i {
+  margin: auto;
+  cursor: pointer;
+}
+
+.dashboard-header .back i:hover {
+  color: dodgerblue;
+}
+
+.dashboard-header .event-name {
+  position: absolute;
+  top: 10px;
+  left: 60px;
+  width: 20%;
+  min-width: 100px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.dashboard-header .event-date {
+  position: absolute;
+  bottom: 4px;
+  left: 60px;
+  width: 100%;
+  min-width: 100px;
+}
+
+.dashboard-header .event-code {
+  position: relative;
+  width: 20%;
+  min-width: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+.dashboard-header .setting {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.dashboard-header .setting i {
+  margin: auto;
+  cursor: pointer;
+}
+
+.dashboard-header .setting i:hover {
+  color: rgb(0, 146, 214);
+}

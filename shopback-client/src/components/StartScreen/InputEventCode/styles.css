@@ -1,0 +1,7 @@
+.input-event-code .ant-input-affix-wrapper {
+    width: 250px;
+}
+
+.input-event-code .ant-input-suffix {
+    right: 0;
+}

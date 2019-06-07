@@ -1,0 +1,60 @@
+.event-item {
+    height: 50px;
+    background: white;
+    position: relative;
+    border-radius: 1px;
+    margin-bottom: 2px;
+    display: flex;
+    box-shadow: 2px 2px 4px;
+    cursor: pointer;
+}
+
+.event-item:hover {
+    background: rgba(0, 2, 122, 0.05);
+}
+
+.event-item .event-info {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 48px;
+}
+
+.event-item.highlight {
+    background: linear-gradient(to right, rgba(136, 103, 255, 0.719) 0%,rgba(112, 133, 255, 0.562) 58%,rgba(112,133,255,0.5) 100%);
+}
+
+.event-item .event-name {
+    display: inline-flex;
+    height: 50%;
+    width: auto;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.event-item .event-code {
+    position: relative;
+    height: 50%;
+    width: 60px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.event-item .date-from {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    height: 50%;
+    width: 160px;
+}
+
+.event-item .date-to {
+    position: absolute;
+    top: 50%;
+    left: 170px;
+    height: 50%;
+    width: 160px;
+}
